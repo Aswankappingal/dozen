@@ -1,0 +1,117 @@
+
+.mainleft h3{
+    font-size: 42px;
+    letter-spacing: 5px;
+    color: rgb(241, 217, 217);
+}
+.mainright a{
+    text-decoration: none;
+    color: rgb(248, 230, 230);
+    font-size: 26px;
+    margin-top: 35px;
+    margin-right: 75px;
+}
+.mainright a:hover{
+    color: white;
+    border-bottom: 1px solid white;
+    
+}
+.mainright span{
+    background-color: rgb(225, 167, 42);
+    color: black;
+}
+.container-fluid{
+    background-color: rgb(27, 25, 25);
+    height: 60px;
+    position: sticky;
+    top: 0;
+}
+/* middle section */
+.major{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.505),rgba(0, 0, 0, 0.505)) ,url(../images/woodennew.jpg);
+    height: 800px;
+    background-size: cover;
+    margin-top: 2px;
+}
+.left{
+    color: white;
+    padding: 50px;
+}
+.mainh{
+    padding: 10px;
+    padding-left: 50px;
+    letter-spacing: 4px;
+    font-weight: 100px;
+}
+.subh{
+    padding: 10px;
+    padding-left: 50px;
+    letter-spacing: 2px;
+}
+.subpara{
+    padding-left: 50px;
+    padding-top: 5px;
+}
+.left a{
+    text-decoration: none;
+    color: white;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+.inputwhole{
+    margin-top: 24px;
+    padding-left: 45px;
+    padding-top: 10px;
+}
+.inputbox{
+    padding-bottom: 20px;
+}
+.inputbox2{
+    padding-bottom: 20px;
+}
+.inputbox3{
+    padding-bottom: 30px;
+}
+.inputwhole input{
+    padding-left: 30px;
+    padding-right:250px;
+    border: 2px solid white;
+    background-color: transparent;
+}
+.inputbox3 input{
+    padding-bottom: 60px;
+}
+.aa{
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 9px 41px;
+    border-radius: 30px;
+    color: white !important;
+}
+.aa:hover{
+    background-color: black;
+}
+.right img{ 
+    width: 100%;
+    height: 537px;
+    padding-left: 275px;
+    padding-bottom: 85px;
+    margin-top: 150px;
+    border-radius: 50px;
+}
+.major{
+    display: flex;
+}
+.icons i{
+      color: rgb(51, 45, 45);
+      margin-top: 487px;
+      padding-left: 400px;
+      font-size: 35px;
+}
+.icons span{
+    color: rgb(53, 50, 50);
+    padding-left: 23px;
+}
+.inputwhole input::placeholder{
+    color: white;
+}
