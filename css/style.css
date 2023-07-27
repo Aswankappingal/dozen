@@ -1,25 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 /* font-family: font-family: 'Borel', cursive; */
-
 .mainleft h3{
-    font-size: 42px;
-    letter-spacing: 5px;
+    margin-top: 10px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    padding-left: 30px;
     color: rgb(241, 217, 217);
 }
 .mainright a{
     text-decoration: none;
     color: rgb(248, 230, 230);
-    font-size: 26px;
-    margin-top: 15px;
+    font-size: 20px;
+    margin-top: 55px;
     margin-right: 75px;
+}
+.mainright{
+    padding-top: 14px;
 }
 .mainright a:hover{
     color: white;
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid rgb(243, 243, 178);
 }
 .mainright span{
-    background-color: rgb(233, 233, 33);
+    background-color: rgb(243, 243, 178);
     color: black;
+    padding: 4px 15px;
+    border-radius: 6px;
 }
 .container-fluid{
     background-color: rgb(27, 25, 25);
@@ -31,7 +38,8 @@
     background-image: url(../images/coffee-latte-with-cookies-coffiee-beans.jpg);
     height: 590px;
     background-size: cover;
-    background-position: fixed;
+    background-attachment: fixed;
+
 }
 .nmain {
     text-align: end;
@@ -53,42 +61,46 @@
     background-color: rgb(48, 43, 43);
     color: white;
 }
+.nmain{
+    text-align: center;
+    /* background-color: red; */
+    padding-left: 880px;
+}
 .hmain{
      font-size: 50px;
-     letter-spacing: 3px;
-     font-style:oblique;
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     letter-spacing: 5px;
+     font-family: 'Open Sans', sans-serif;
 }
 .smain{
-    padding-right: 90px;
     padding-top: 20px;
     letter-spacing: 3px;
     font-size: 36px;
-    font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Open Sans', sans-serif;
 
 }
 .pmain p{
     margin-top: 30px;
-    margin-right: 160px;
     font-size: 15px;
     letter-spacing: 2px;
 }
 .btn{
     margin-top: 13px;
-    margin-right: 160px;
     letter-spacing: 2px;
     
 }
 .btn a{
-    padding: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
 }
 .fhead{
     text-align: center;
+    padding-top: 40px;
+    
 }
+
 .fhead h2{
     color:rgb(24, 22, 22);
-    font-family:'Borel', cursive;;
+    font-family: 'Open Sans', sans-serif;
     margin-top: 20px;
 }
 .fhead p{
@@ -100,7 +112,6 @@
     background-color: rgb(243, 243, 178);
     height: 320px;
     display: flex;
-    margin-top: 10px;
 
 }
 .series img{
@@ -122,7 +133,7 @@
     color: black;
     text-decoration: none;
     border: 1px solid black;
-    padding: 15px;
+    padding: 10px 20px;
     border-radius: 10px;
 }
 .know a:hover{
@@ -130,37 +141,38 @@
 }
 .greenm{
     background-color: rgb(24, 18, 18);
-    height: 700px;
+    height: 320px;
 }
 .green{
     /* background-color: rgb(24, 18, 18);
     height: 700px; */
-    margin-top: 20px;
+    /* margin-top: 20px; */
     display: flex;
 }
 .greeni img{
-    width: 200px;
-    padding: 40px;
-    border-radius: 59px;
-    margin-bottom: 0 !important ;
+    width: 140px;
+    /* padding: 40px; */
+    margin-top: 60px;
+    border-radius: 19px;
+    margin-right: 120px;
+    margin-left: 80px;
+    /* margin-bottom: 0 !important ; */
 }
 .maingreen{
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 50px;
     padding-left: 80px;
  
-}
-.maingreen a p{
-    color: white;
-    padding-top: 30px;
-    font-size: 21px;
 }
 .maingreen a:hover{
     color: white;
 }
 .maingreen a{
     text-decoration: none;
+    color: white;
+    padding-top: 30px;
+    font-size: 13px;
 }
 .maingreen i{
     gap: 25px;
@@ -171,16 +183,18 @@
 }
 .border{
     border-bottom: 1px solid white;
-    width: 1200px;
-    margin-left: 80px;
-    margin-top: 80px;
+    width: 90%;
+  margin: auto;
+  margin-top: 20px;
 }
 .lastparab{
     display: flex;
+    justify-content: center;
+    gap: 100px;
     
 }
 .lastparab p{
-    margin-left: 100px;
+    /* margin-left: 100px; */
     margin-top: 20px;
     color: white;
 }
